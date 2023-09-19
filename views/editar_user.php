@@ -65,7 +65,7 @@ $usuario = mysqli_fetch_assoc($resultado);
 
 
     <form action="../includes/_functions.php" method="POST">
-        <div id="login">
+        <div>
             <div class="container">
                 <div id="login-row" class="row justify-content-center align-items-center">
                     <div id="login-column" class="col-md-6">
