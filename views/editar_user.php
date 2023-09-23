@@ -312,7 +312,8 @@ $usuario = mysqli_fetch_assoc($resultado);
                                 <input type="hidden" name="accion" value="editar_registro">
                                 <input type="hidden" name="id" value="<?php echo $id; ?>">
                             </div> -->
-
+                            <input type="hidden" name="accion" value="editar_registro">
+                            <input type="hidden" name="id" value="<?php echo $id; ?>">
                             <br>
 
                             <div class="mb-3">
@@ -324,12 +325,10 @@ $usuario = mysqli_fetch_assoc($resultado);
                         </div>
                     </div>
 
-    </form>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+                </div>
+            </div>
+        </div>
+
     </form>
 </body>
 
