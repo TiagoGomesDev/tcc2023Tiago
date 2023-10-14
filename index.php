@@ -26,6 +26,62 @@ if ($validar == null || $validar = '') {
     <link rel="stylesheet" href="./css/es.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./package/dist/sweetalert2.css">
+    <style>
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        } */
+
+        /* .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        } */
+
+        .modal-header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="number"],
+        .form-group input[type="radio"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .mb-3 {
+            margin-bottom: 20px;
+        }
+
+        /* .btn-success,
+        .btn-danger {
+            padding: 10px 20px;
+            font-size: 18px;
+        } */
+    </style>
 </head>
 
 <body id="page-top">
@@ -85,6 +141,7 @@ if ($validar == null || $validar = '') {
                         </div> -->
                         <div class="form-group">
                             <label for="tipConta">Tipo de Conta:</label><br>
+                            <br>
                             <div class="row">
                                 <div class="col-md-3">
                                     <label>Corrente Fisica:</label>
